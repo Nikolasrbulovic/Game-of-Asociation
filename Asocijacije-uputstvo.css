@@ -1,0 +1,207 @@
+header {
+  position: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #353fcece;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+#igrac {
+  background-color: rgba(250, 235, 215, 0.185);
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  width: 40rem;
+  margin: 1rem auto;
+}
+#uputstvo {
+  background-color: rgba(250, 235, 215, 0.185);
+  width: 30rem;
+  max-width: 90%;
+  margin: 3rem auto;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+}
+body {
+  background-color: rgba(109, 111, 207, 0.719);
+}
+
+.igraci h2 {
+}
+button {
+  width: 200px ;
+  margin: 1rem auto;
+ 
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #353fcece;
+  color: white;
+  padding: 0.75rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+button:hover,
+button:active {
+  background-color: #1407d3c4;
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+
+.badge {
+  background-color: #b94517;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+button:hover .badge,
+button:active .badge {
+  background-color: #92320c;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.gamebutton1 {
+  margin-left: 1rem;
+}
+.gamebutton2 {
+  margin-left: 3rem;
+}
+.gamebutton3 {
+  margin-left: 5rem;
+}
+.gamebutton4 {
+  margin-left: 7rem;
+}
+.gamebutton11 {
+  margin-right: 1rem;
+}
+.gamebutton22 {
+  margin-right: 3rem;
+}
+.gamebutton33 {
+  margin-right: 5rem;
+}
+.gamebutton44 {
+  margin-right: 7rem;
+}
+
+.Asocijacija1 {
+  width: 20rem;
+  display: inline-block;
+}
+#game {
+  width: 45rem;
+  margin: auto;
+}
+.inputL,
+.inputR {
+  
+  margin: 1rem auto;
+  margin-bottom: 0;
+  text-align: center;
+  font: inherit;
+  border: none;
+  background-color: #353fcece;
+  color: white;
+  padding: 0.75rem 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.inputL {
+  margin-left: 7rem;
+}
+.inputR {
+  margin-right: 7rem;
+}
+#resenje {
+  padding: 0.75rem 3rem;
+  margin-left: 11rem;
+}
+#game button,
+.inputL,
+.inputR,
+.resenje {
+  background-color: #4f4f53ce;
+}
+#game button:hover,
+button:active {
+  background-color: #5f5f669a;
+}
+#vreme1, #vreme2{
+  border-radius: 25px;
+  color:white;
+  text-align: center;
+  width: 200px;
+  margin: 1rem auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+}
+#vreme{
+  justify-content: space-between;
+  display: flex;
+}
+#vreme1{
+  background-color: blue;
+}
+#vreme2{
+  background-color: red;
+}
+#vremeigre{
+  border-radius: 25px;
+  color:white;
+  text-align: center;
+
+  margin: 1rem auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
